@@ -1,0 +1,88 @@
+
+/* images */
+
+img.center, div.center {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+img.alignright, div.alignright {
+  float: right;
+  margin: 0 0 2px 10px;
+}
+
+img.alignleft, div.alignleft {
+  float: left;
+  margin: 0 10px 2px 0;
+}
+
+div.img {
+  display: inline-table;
+  border: 1px solid #444;
+  padding: 3px;
+}
+
+div.img div {
+  background-color: auto;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-style: oblique;
+}
+
+/* highslide */
+
+.highslide {
+   cursor: url(graphics/zoomin.cur), pointer;
+}
+
+.highslide-image {
+	border: 0;
+   /* border: 10px solid white; */  /* enable this if you want a border around the image: */
+   /* border-bottom: 0; */          /* enable this, if you set a border and you show titles under the image: */
+}
+
+.highslide-loading {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 3px 5px;
+}
+
+.highslide-caption {
+    display: none;
+    height: 35px;
+    padding: 6px;
+    color: #ddd;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+a.highslide-full-expand {
+	background: url(graphics/fullexpand.gif) no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px;
+	height: 34px;
+}
+
+/* These must always be the last highslide declarations */
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+
+.highslide-dimming {
+    background: black;
+}

@@ -1,0 +1,49 @@
+.tweetContainer {
+    height: 270px;
+    overflow: hidden;
+}
+.tweetContainer li {
+    border-bottom: 1px solid #e5e5e5;
+}
+.tweetContainer.small li {
+}
+.tweetContainer h2 {
+    font-family: Arial, Sans-Serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.tweetContainer.small h2 {
+    font-size: 12px;
+    margin-bottom: 1px;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+.tweetContainer h2 *,
+h2 * {
+    color: #3E4A59;
+}
+.boxBody {
+    padding-top: 9px;
+}
+
+.boxBody li:first-child {
+    padding-top:0;
+}
+.boxBody h2 {
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+.autorName {
+    display: block;
+    color: #e86068;
+    padding-left: 0;
+}
+.boxbody li {
+    background: none;
+}

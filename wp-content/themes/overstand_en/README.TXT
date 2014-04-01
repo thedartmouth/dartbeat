@@ -1,0 +1,3 @@
+Overstand was designed by Floyd Celluloyd upon Upstart Blogger Futurosity. For information on installation and customization, please visit the theme page at http://www.fakeblog.de/2007/10/25/overstand-theme-fur-wordpress-23/
+
+This WordPress theme is released under the Creative Commons Attribution v3.0 license (http://creativecommons.org/licenses/by/3.0/), meaning you can do pretty much whatever you want with it, but you must keep the link back to fakeblog in the footer.
